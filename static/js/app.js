@@ -106,13 +106,13 @@ function initialSetup(individual) {
         gauge: {
             axis: {dtick: 1,
                    range: [null, 10],
-                   tickcolor: "black",
+                   tickcolor: "Red",
                    ticks: "inside",},
             bar: {color: "#ee8844",
                   thickness: 0.5}, // replace  or add needle?
-            bgcolor: "white",
+            bgcolor: "Green",
             borderwidth: 1,
-            bordercolor: "black",
+            bordercolor: "Red",
             steps: [
                 {range: [0, 1], color: "#ffffa8"},
                 {range: [1, 2], color: "#f1fa95"},
